@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    >
+    
+  <RadioGroup
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:gravity="center"
+      >
+
+      <RadioButton
+          android:id="@+id/rdoRajesh"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:hint="Rajesh Hamal"
+          android:layout_weight="1"
+
+          />
+
+      <RadioButton
+          android:id="@+id/rdoDaya"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:hint="Dayahang Rai"
+          android:layout_weight="1"
+
+          />
+
+      <RadioButton
+          android:id="@+id/rdoBhuwan"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:hint="Bhuwan K.C."
+          android:layout_weight="1"
+          />
+
+  </RadioGroup>
+
+      <ImageView
+          android:id="@+id/imgHero"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:src="@drawable/rajesh"
+          />
+
+</LinearLayout>
